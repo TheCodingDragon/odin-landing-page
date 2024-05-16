@@ -8,6 +8,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -16,7 +25,6 @@ body {
 
 .navbar {
     background-color: #1F2937;
-    color: #fff;
     height: 60px;
 }
 
@@ -36,4 +44,12 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
 }
