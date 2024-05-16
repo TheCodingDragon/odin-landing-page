@@ -106,6 +106,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    height: 400px;
 }
 
 .info .info-boxes {
@@ -136,4 +137,30 @@ ul {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10%;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote .quote-cite {
+    text-align: right;
+    font-weight: bolder;
 }
