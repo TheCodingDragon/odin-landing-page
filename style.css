@@ -8,11 +8,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2 {
-    margin-bottom: 15px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -64,8 +59,10 @@ ul {
 
 .hero-box {
     width: 50%;
-    height: 200px;
-    border: 1px solid blue;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .hero-box.place-holder {
@@ -80,10 +77,24 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    border: 1px solid red;
 }
 
 .header .hero-main {
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-box button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
 }
