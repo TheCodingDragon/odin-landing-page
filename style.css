@@ -24,3 +24,16 @@ body {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
