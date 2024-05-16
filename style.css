@@ -197,3 +197,13 @@ ul {
     color: #fff;
     font-weight: bolder;
 }
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
