@@ -164,3 +164,36 @@ ul {
     text-align: right;
     font-weight: bolder;
 }
+
+/* Call to action section */
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color: #fff;
+    height: 25px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.call-to-action .call-header {
+    color: #fff;
+    font-weight: bolder;
+}
